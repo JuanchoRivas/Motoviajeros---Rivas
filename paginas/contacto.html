@@ -1,62 +1,56 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../estilos/estilos.css">
-    <link rel="stylesheet" href="../estilos/contacto.css">
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="/estilos/estilos.css"/>
+    <link rel="stylesheet" href="/estilos/contacto.css"/>
     <title>Motoviajeros</title>
 </head>
-<body>
-    <!--Header por acá-->
-    <header>
-        <h1>KDTS en Ruta</h1>
-        <nav>
+    <body>
+        <div class="contenedor">
+             <!--Header-->
+            <header>
+                <h1>KDTS en Ruta</h1>
+                <nav>
+                        <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="../paginas/blogger.html">Blogger</a></li>
+                        <li><a href="../paginas/misVideos.html">Mis Videos</a></li>
+                        <li><a href="../paginas/contacto.html" class="active">Contacto</a></li>
+                        <li><a href="../paginas/nuestrasRedes.html">Nuestras Redes</a></li>
+                        </ul>
+                </nav>
+            </header>
+            <!--Main-->
+            <main class="contenido">
+                 <h1>Contenido</h1>
+                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis magni autem expedita dolorum neque quos commodi ipsum beatae. Obcaecati sint nobis soluta illo quam, nihil omnis natus autem. At nobis placeat perspiciatis! Veritatis error numquam eos sequi harum, recusandae culpa tempora aspernatur hic nobis cumque ea non quas ullam fugiat in nihil optio vitae aliquam repudiandae odit accusantium! Sapiente possimus ratione veniam, veritatis blanditiis eligendi architecto quas quo iure praesentium ex dignissimos vero hic et aliquid totam soluta, minima delectus vel voluptatem animi! Doloremque facere, quasi hic fugiat temporibus sint iusto magnam et nisi, pariatur aut deleniti eligendi autem distinctio.</p>
+             </main>
+            <aside class="sidebar animate__animated animate__swing">
+                <h3>SIDEBAR</h3>
+            </aside>
+            <div class="widget-1">
                 <ul>
-                  <li><a href="../index.html">Inicio</a></li>
-                  <li><a href="blogger.html">Blogger</a></li>
-                  <li><a href="misVideos.html">Mis Videos</a></li>
-                  <li><a href="contacto.html" class="active" >Contacto</a></li>
-                  <li><a href="nuestrasRedes.html">Nuestras Redes</a></li>
+                    <li><a href="/img/img2.jpg">Clickea este texto para ver la imagen de Copina</a></li>
                 </ul>
-        </nav>
-    </header>
-   <!--Main-->
-    <main>
-        <!--Section-->
-        <section>
-            <!--Title-->
-            <h3>¿Quiénes somos?</h3>
-            <div class="contenedorImg">
-                <div class="image-wrapper"> <img src="../img/img1.jpg" alt="Imagen1"></div>
-                <div class="image-wrapper"> <img src="../img/img2.jpg" alt="Imagen2"></div>
-                <div class="image-wrapper"> <img src="../img/img3.jpg" alt="Imagen3"></div>
             </div>
-                <h2>Hola! Yo soy Juan, y estas son mis compañeras de viaje, soy un motoviajero bastante nuevo, arranqué en el 2018 con la moto por una necesidad, y ahora se volvió una pasión.<br>
-                    Si te interesa contactarnos y formar parte de esta página, compartiendo tus viajes e historias en la moto, dejanos tu información en el formulario de abajo.
-                </h2>
-                <div class="forms">
-                    <form action="/action_page.php">
-                      <label for="Nombre">Nombre</label>
-                      <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">               
-                      <label for="Apellido">Apellido</label>
-                      <input type="text" id="apellido" name="apellido" placeholder="Tu Apellido">               
-                      <label for="país">País</label>
-                      <select id="país" name="país">
-                        <option value="Argentina">Argentina</option>
-                        <option value="USA">USA</option>
-                        <option value="México">México</option>
-                      </select>
-                      <label for="Nombre">E-mail</label>
-                      <input type="text" id="Email" name="Email" placeholder="Tu E-mail">
-                    </form>
-                  </div>
+            <div class="widget-2">
+                <ul>
+                    <li><a href="/img/img1.jpg">Clickea este texto para ver la imágen de Puentes</a></li>
+                </ul>
+            </div>
             <!--Footer-->
-            <footer>
-                <div id="imgwa"><a href="https://wa.me/5492954650217" target="_blank"><img src="../img/imgwa.png" title="Enviame un Whatsapp"></a><div>
+            <footer class="footer">
+                <ul>
+                    <li><a href="/img/img3.jpg"><p>Clickea este texto para ver la imagen en "La Casa de Stella"</p></a></li>
+                </ul>  
+                <div id="imgwa"><a href="https://wa.me/5492954650217" target="_blank"><img src="../img/imgwa.png" title="Enviame un Whatsapp"></a><div></div>
             </footer>
-        </section>
-    </main>
-</body>
-</html>
+        </div>
+    </body>
+    </html>

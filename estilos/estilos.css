@@ -127,6 +127,7 @@ p{
     margin: 0%;
     padding: 0%;
     font-size: 30px;
+
 }
 
 contenedor > div,
@@ -151,15 +152,17 @@ contenedor > div,
 
 .contenedor .sidebar {
     grid-column: 3/4;
-    background-color: #faa43d;
+    background: linear-gradient(70deg, blue, rgb(73, 159, 216), rgb(0, 217, 255));
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100px;
+    margin-bottom: 100px;
     
     grid-area: sidebar;
 }
+
 
 .contenedor .widget-1,
 .contenedor .widget-2{
@@ -203,6 +206,5 @@ header {
         
     }
 }
-
 
 
