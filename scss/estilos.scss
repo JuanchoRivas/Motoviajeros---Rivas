@@ -1,0 +1,27 @@
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(4, auto);
+grid-template-areas:
+    "header header header"
+    "contenido contenido sidebar"
+    "widget-1 widget-2 sidebar"
+    "footer footer footer"
+}
+
+.primera{
+    @extend .contenedor;
+    background-color: blue;
+}
+
+.caja{
+    @extend .contenedor;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+}
+
